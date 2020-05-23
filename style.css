@@ -83,8 +83,11 @@ padding: 20px 33px;
 transition: 0.3s;
 }
 a { text-decoration: none;}
-input{
-border: 2px double #8845f4;
+input[type=text]{
+border: 2px solid #8845f4;
+color: #8845f4;
+padding: 10px 20px;
 border-radius: 30px;
+height: 100px;
+width: 500px;
 }
-button {background-color: #8845f4; }
