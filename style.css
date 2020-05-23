@@ -1,0 +1,90 @@
+body { 
+font-family: sans-serif;
+font-size: 20px;
+}
+ h1{ 
+color: white;
+text-align: center;
+text-transform: uppercase;
+font-weight: 100;
+letter-spacing: 5px;
+}
+ul{
+color: white;
+text-align: center;
+text-transform: uppercase;
+font-weight: 300;
+letter-spacing: 5px;
+font-size: 44px;
+margin-left: 40px;
+line-height: 60px;
+color: rgba(0,0,0,.5);
+}
+#top{
+font-size: 50px;
+display: inline-block;
+background: #8845f4;
+color: white;
+margin-top: -13px;
+padding: 20px 40px;
+border-radius: 0 0 20px 20px;
+box-shadow: 0 0 30px rgba(0,0,0,.5);
+transition: 1s;
+}
+#topd{text-align: center;}
+#topd:after{
+content: "";
+z-index: -1;
+position: absolute;
+background-color: #8845f4;
+box-shadow: 0 0 40px rgba(0,0,0,.5);
+height: 0;
+width: 100%;
+top: 0;
+left: 0;
+border-radius: 0 0 80% 80%/0 0 30% 30%;
+transition: 1s;
+}
+#top:hover{color: #8845f4;background: white;}
+#topd:hover::after{
+height: 1000px;
+}
+ #mail{ 
+font-size: 35px;
+text-decoration: none;
+color: white;
+background: rgb(230,0,0);
+margin-left: -10px;
+width: 200px;
+border-radius: 0 50px 50px 0px;
+padding: 20px 40px;
+transition: 0.3s;
+box-shadow: 5px 7px 30px 10px rgba(0,0,0,.4);
+}
+#icon1{
+width: 80px;
+margin-bottom: -7px;
+}
+#icon2{
+width: 165px;
+margin-top: -10px;
+margin-bottom: -69px;
+}
+#wa{
+height: 200px;
+font-size: 35px;
+text-decoration: none;
+color: white;
+background: rgb(0,200,0);
+margin-left: -20px;
+margin-right: -55px;
+border-radius: 50px 0px 0px 50px;
+padding: 20px 33px;
+transition: 0.3s;
+}
+a { text-decoration: none;}
+input{
+border: 2px double #8845f4;
+border-radius: 30px;
+}
+button {background-color: #8845f4; }
